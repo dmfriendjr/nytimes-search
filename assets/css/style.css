@@ -1,6 +1,28 @@
-body {
-	background-color: #FACE13;
-	background-image: url(https://media3.giphy.com/media/tSniEbOGfuCnm/200.gif?cid=e1bb72ff5a209e5e7050475a67c6d5f8);
-	background-repeat: repeat-x repeat-y;
-	color: #FACE13;
+.lato {
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 68px;
+}
+.blue-background {
+	background-color: #20315A;
+}
+.white-text {
+	color: white;
+}
+.padding-80-170 {
+	padding: 40px 70px;
+}
+.container {
+	max-width: 1142px;
+}
+.mar-bot-40{
+	margin-bottom: 40px;
+}
+.border-2 {
+	border: 2px solid black;
+}
+.mar-0 {
+	margin: 0px;
+}
+.grey-blue-back {
+	background-color: #798D8F;	
 }
