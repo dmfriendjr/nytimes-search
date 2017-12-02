@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>New York Times Search</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">=
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	
@@ -56,10 +56,11 @@
 		</div>
 		<div class="card-block">
 			<div id="search-results">
-				
+				<span class="label label-primary blue-background white-text"><h3 id="result-number">1 </h3></span> <span id="result-title"><h3>   *title of results*</h3></span>
+				<span id="author-name">*author*</span>
 			</div>
-			<button id="submit-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-left" aria-hidden="true"></i> Last </button>  <!--change icon from next to previous-->
-			<button id="clear-results-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-right" aria-hidden="true"></i> Next </button>
+			<button id="last-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-left" aria-hidden="true"></i> Last </button>  <!--change icon from next to previous-->
+			<button id="next-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-right" aria-hidden="true"></i> Next </button>
 		</div>
 	</div>
 

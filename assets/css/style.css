@@ -27,3 +27,10 @@
 	background-color: #798D8F;	
 	font-size: 15px;
 }
+#result-number {
+	background-color: #20315A;
+	padding: 7px;
+	width: 30px;
+	float: left;
+
+}
