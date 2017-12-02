@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<title>New York Times Search</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">=
 	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="script.js"></script>
@@ -16,13 +16,28 @@
 
 <body>
 
-	<div class="container headerer blue-background lato white-text text-center padding-80-170">
+	<div class="container headerer blue-background lato white-text text-center padding-80-170  mar-bot-40">
 		<div class="headertext">
-			<p><i class="fa fa-newspaper-o" aria-hidden="true"></i>New York Times Search</p>
+			<p><i class="fa fa-newspaper-o" aria-hidden="true"></i> New York Times Search</p>
 		</div>
 	</div>
 
-	<div class=""
+	<div class="card border-2 container">
+		<div class="card-header blue-background white-text">
+			<p><h4><i class="fa fa-newspaper-o" aria-hidden="true"></i> Search Parameters</h4></p>
+		</div>
+		<div class="card-block">
+			<form>
+				<div class="form-group">
+					<label for="search-box"><h5>Search: </h5></label>
+					<input type="email" class="form-control" id="search-box" placeholder="Search Term">
+				</div>
+				<div class="form-group">
+					<label for="results-box"><h5>Number of Results: </h5></label>
+					<input type="email" class="form-control" id="results-box" placeholder="Search Term">
+				</div>
+			</form>
+	</div>
 
 
 
