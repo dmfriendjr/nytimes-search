@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">=
 	<link rel="stylesheet" href="assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<script src="script.js"></script>
 	
 
 </head>
@@ -34,23 +33,38 @@
 				</div>
 				<div class="form-group">
 					<label for="number-items"><h5>Number of Results: </h5></label>
-					<input type="email" class="form-control" id="rnumber-items" placeholder="Search Term">
+					<input type="email" class="form-control" id="number-items" placeholder="ex-5">
 				</div>
 				<div class="form-group">
 					<label for="start-year"><h5>Start Year (Optional): </h5></label>
-					<input type="email" class="form-control" id="start-year" placeholder="Search Term">
+					<input type="email" class="form-control" id="start-year" placeholder="Start Year">
 				</div>
 				<div class="form-group">
 					<label for="end-year"><h5>End Year (Optional): </h5></label>
-					<input type="email" class="form-control" id="end-year" placeholder="Search Term">
+					<input type="email" class="form-control" id="end-year" placeholder="End Year">
 				</div>
 			</form>
-			<button id="submit-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-newspaper-o" aria-hidden="true"></i> Search </button>
+			<button id="submit-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
 			<button id="clear-results-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-trash" aria-hidden="true"></i> Clear Results</button>
 		</div>
 	</div>
 
+	<div class="card border-2 container">
+		<div class="card-header blue-background white-text mar-0">
 
+			<p><h4><i class="fa fa-table" aria-hidden="true"></i> Top Articles </h4></p>
+		</div>
+		<div class="card-block">
+			<div id="search-results">
+				
+			</div>
+			<button id="submit-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-left" aria-hidden="true"></i> Last </button>  <!--change icon from next to previous-->
+			<button id="clear-results-button" class="btn btn-lg grey-blue-back white-text"><i class="fa fa-arrow-right" aria-hidden="true"></i> Next </button>
+		</div>
+	</div>
+
+		<script src="script.js"></script>
+	
 
 </body>
 </html>
